@@ -26,5 +26,4 @@ variable "components"{
     portfolio-service = ""
     analytics-service = ""
   }
-
 }
