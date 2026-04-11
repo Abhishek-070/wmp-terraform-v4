@@ -41,7 +41,7 @@ resource "null_resource" "ansible" {
     }
     inline = [
       "sudo labauto ansible",
-      "ansible-pull -i localhost, -U https://github.com/raghudevopsb88/wmp-ansible-v4.git main.yml -e env=dev -e COMPONENT=${each.key}"
+      "ansible-pull -i localhost, -U https://github.com/Abhishek-070/wmp-ansible-v4.git main.yml -e env=dev -e COMPONENT=${each.key}"
     ]
   }
 }
